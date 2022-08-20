@@ -4,6 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    background-position: center;
 }
 /* Parte 1 */
 header{
@@ -11,6 +12,7 @@ header{
     color: white;
     text-align: center;
     height: 15em;
+    margin-bottom: 5em;
 }
 header h1{
     font-size: 5em;
@@ -19,12 +21,15 @@ header h1{
     font-weight: 650;
     font-family: Passion One;
 }
+header>p{
+    font-size: 19px;
+}
 header a{
     text-decoration: none;
     color: white;
 }
 header a:hover{
-    transition-duration: 0.6s;
+    transition-duration: 0.7s;
     color: rgb(180, 180, 180);
 }
 
@@ -33,16 +38,17 @@ header a:hover{
 /* Conteúdo*/
 section>p{
     width: 350px;
-    margin-left: 3.2em;
-    font-size: 2.1em;
+    margin-left: 2em;
+    font-size: 2.2em;
     margin-top: 15px;
     line-height: 1.7em;
-    text-indent: 1.1em;
     font-family: Sriracha, 'Times New Roman', Times, serif;
+    text-align: justify;
+    
 }
 section{
      width: 100%;
-     height: 700px;
+     height: 590px;
     }
 #grama{
     background-image: url('img/Flor.jpg');
@@ -55,6 +61,28 @@ section{
 .one{
     background-color: rgba(0, 0, 0, 0.253);
     color: white;
+}
+#text1{
+    position: absolute;
+    top: 915px;
+    
+}
+#text2{
+    position: absolute;
+    top: 78em;
+}
+#text3{
+    position: absolute;
+    top: 60.5em;
+    
+}
+#text4{
+    position: absolute;
+    top: 94.5em;
+}
+#im{
+    background-image: url('img/poesia.jpg');
+    background-attachment: fixed;
 }
 /* Conteúdo-end*/
 
