@@ -6,6 +6,10 @@
     padding: 0px;
     background-position: center;
 }
+:root{
+    --font1--: Passion One, arial;
+    --font2--:Sriracha,'Times New Roman', Times, serif;
+}
 /* Parte 1 */
 header{
     background-color: black;
@@ -18,7 +22,7 @@ header h1{
     font-size: 5em;
     padding-top: 30px;
     font-weight: 650;
-    font-family: Passion One;
+    font-family: var(--font1--);
 }
 header>p{
     font-size: 19px;
@@ -36,13 +40,12 @@ header a:hover{
  
 /* Conteúdo*/
 section>p{
-    width: 350px;
+    width: 400px;
     margin-left: 1.5em;
     font-size: 2.2em;
     margin-top: 15px;
     line-height: 1.7em;
-    font-family: Sriracha, 'Times New Roman', Times, serif;
-    text-align: justify;
+    font-family: var(--font2--);
     
 }
 section{
@@ -52,14 +55,20 @@ section{
 #grama{
     background-image: url('img/Flor.jpg');
     background-attachment: fixed;
+    box-shadow: inset 0px 10px 12px rgba(0, 0, 0, 0.5);
+    background-color: rgba(128, 128, 128, 0.363);
 }
 #livro{
    background-image: url('img/Carta.jpg'); 
    background-attachment: fixed;
+   box-shadow: inset 0px 10px 12px rgba(0, 0, 0, 0.5);
+   background-color: rgba(128, 128, 128, 0.363);
 }
 .one{
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.356);
     color: white;
+    border-radius: 3px;
+    text-shadow: 2px 2px 3px black;
 }
 #text1{
     position: absolute;
@@ -72,8 +81,7 @@ section{
 }
 #text3{
     position: absolute;
-    top: 60.5em;
-    
+    top: 60.5em;   
 }
 #text4{
     position: absolute;
@@ -82,6 +90,8 @@ section{
 #im{
     background-image: url('img/poesia.jpg');
     background-attachment: fixed;
+    box-shadow: inset 0px 10px 12px rgba(0, 0, 0, 0.5);
+    background-color: rgba(128, 128, 128, 0.363);
 }
 /* Conteúdo-end*/
 
